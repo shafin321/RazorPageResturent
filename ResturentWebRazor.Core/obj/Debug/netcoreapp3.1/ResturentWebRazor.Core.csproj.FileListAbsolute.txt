@@ -1,0 +1,9 @@
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\bin\Debug\netcoreapp3.1\ResturentWebRazor.Core.deps.json
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\bin\Debug\netcoreapp3.1\ResturentWebRazor.Core.dll
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\bin\Debug\netcoreapp3.1\ResturentWebRazor.Core.pdb
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\obj\Debug\netcoreapp3.1\ResturentWebRazor.Core.AssemblyInfoInputs.cache
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\obj\Debug\netcoreapp3.1\ResturentWebRazor.Core.AssemblyInfo.cs
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\obj\Debug\netcoreapp3.1\ResturentWebRazor.Core.csproj.CoreCompileInputs.cache
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\obj\Debug\netcoreapp3.1\ResturentWebRazor.Core.dll
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\obj\Debug\netcoreapp3.1\ResturentWebRazor.Core.pdb
+C:\Users\Shujaul\source\repos\EcommerceProject\ResturentWebRazor\ResturentWebRazor.Core\obj\Debug\netcoreapp3.1\ResturentWebRazor.Core.csprojAssemblyReference.cache

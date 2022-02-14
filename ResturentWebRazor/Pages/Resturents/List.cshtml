@@ -1,0 +1,62 @@
+﻿@page "{id:int?}"
+@model ResturentWebRazor.Pages.Resturents.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Resturant</h1>
+
+
+<form  method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTearm" />
+            <div class="input-group-append">
+                <button class="btn btn-dark">
+                    Search                    
+                </button>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
+<td>
+    <a class="btn btn-primary" asp-page="./Create">Create</a>
+
+</td>
+<table class="table ">
+<tr>
+    <td>Resturant Name </td>
+    <td>Cusine type</td>
+    <td>Location</td>
+
+</tr>
+
+   
+        @foreach (var resturant in Model.Resturants)
+        {
+<tr>
+    <td>@resturant.Name</td>
+    <td>@resturant.Cuisine</td>
+    <td>@resturant.Location</td>
+
+    <td>
+        <a class="btn btn-primary" asp-page="./Detail" asp-route-id="@resturant.Id">Detail</a>
+
+    </td>
+
+    <td>
+        <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@resturant.Id">Edit</a>
+
+    </td>
+    
+
+</tr>
+        }
+
+    
+
+
+</table>

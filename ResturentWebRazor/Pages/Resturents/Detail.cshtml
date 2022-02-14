@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model ResturentWebRazor.Pages.Resturents.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+
+@Model.Resturant.Name
+
+<div>
+    @Model.Resturant.Id
+</div>
+<div>
+    Location: @Model.Resturant.Location
+</div>
+
+<div>
+    Cusine:@Model.Resturant.Cuisine
+</div>
+
+<a asp-page="./List" class=" btn btn-dark">All Resturant</a>
